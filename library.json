@@ -1,6 +1,7 @@
 {
     "name": "Blink",
-    "version": "1.0.1",
+    "version": "1.0.2",
+    "releaseNotes": "Added a release note",
     "description": "Initialize the Blink Class to make the LED blink",
     "keywords": "blink, led, arduino",
     "repository": {
