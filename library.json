@@ -5,12 +5,12 @@
     "keywords": "blink, led, arduino",
     "repository": {
         "type": "git",
-        "url": "https://github.com/username/Blink.git"
+        "url": "https://github.com/Aliasthethird/Blink-Lib.git"
     },
     "authors": [
         {
             "name": "Gero Nootz",
-            "email": "gero.nootz@usm.edu"
+            "email": "gero@nootz.de"
         }
     ],
     "license": "MIT",
