@@ -1,7 +1,7 @@
 {
     "name": "Blink",
     "version": "1.0.4",
-    "releaseNotes": "Changed example blink period to two seconds.",
+    "releaseNotes": "Changed example blink period to two seconds and add ChangeLog.md file.",
     "description": "Initialize the Blink Class to make the LED blink",
     "keywords": "blink, led, arduino",
     "repository": {
@@ -17,5 +17,5 @@
     ],
     "license": "MIT",
     "frameworks": "arduino",
-    "platforms": "ESP32" 
+    "platforms": "ESP32"
 }
