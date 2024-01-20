@@ -1,5 +1,8 @@
 # BLINK-LIB ChangeLog
 
+## [1.0.5]- 2023-12-27
+### add gitignore and .vscode to lib development folder
+
 ## [1.0.4]- 2023-12-27
 ### ChangeLog added
 
