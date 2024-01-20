@@ -9,9 +9,9 @@ Blinker blinker(LED_BUILTIN, BLINK_INTERVAL);
 // no other code is required in the setup() or loop() functions
 
 void setup() {
-    // nothing to do here
+    // No additional setup needed
 }
 
 void loop() {
-    // Main loop remains empty
+    // Nothing to do here
 }
