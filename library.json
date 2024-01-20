@@ -1,7 +1,7 @@
 {
     "name": "Blink",
-    "version": "1.0.5",
-    "releaseNotes": "Update code Example and add gitignore and .vscode to lib development folder",
+    "version": "1.0.6",
+    "releaseNotes": "Update from ''Blinker'' to <Blinker> and change name in library.properties file",
     "description": "Initialize the Blink Class to make the LED blink",
     "keywords": "blink, led, arduino, ESP32",
     "repository": {

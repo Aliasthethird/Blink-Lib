@@ -18,9 +18,10 @@ Include the library and create a Blinker object. The object initializes itself, 
 
 ```cpp
 #include <Arduino.h>
-#include "Blinker.h"
+#include <Blinker.h>
 
 #define BLINK_INTERVAL 2.0f
+// #define LED_BUILTIN X // define if not already defined
 
 // Create a Blinker object that will blink the LED_BUILTIN pin
 Blinker blinker(LED_BUILTIN, BLINK_INTERVAL);
