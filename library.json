@@ -1,9 +1,9 @@
 {
     "name": "Blink",
-    "version": "1.0.4",
-    "releaseNotes": "Changed example blink period to two seconds and add ChangeLog.md file.",
+    "version": "1.0.5",
+    "releaseNotes": "Update code Example and add gitignore and .vscode to lib development folder",
     "description": "Initialize the Blink Class to make the LED blink",
-    "keywords": "blink, led, arduino",
+    "keywords": "blink, led, arduino, ESP32",
     "repository": {
         "type": "git",
         "url": "https://github.com/Aliasthethird/Blink-Lib.git"

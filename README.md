@@ -10,22 +10,28 @@ Blinker is an Arduino library for easily managing blinking LEDs using hardware t
 ## Installation (PlatformIO)
 To install Blinker using PlatformIO:
 1. Open your PlatformIO project.
-2. Add `lib_deps = aliasthethird/Blink@^1.0.1` to your `platformio.ini` dependencies.
+2. Add `lib_deps = aliasthethird/Blink@^1.0.5` to your `platformio.ini` dependencies.
 3. PlatformIO will automatically download and install the library.
 
 ## Usage
 Include the library and create a Blinker object. The object initializes itself, so no additional setup is required:
+
 ```cpp
-#include <Blinker.h>
+#include <Arduino.h>
+#include "Blinker.h"
 
+#define BLINK_INTERVAL 2.0f
 
-Blinker blinker(LED_BUILTIN, 0.5); // Blink every 0.5 seconds
+// Create a Blinker object that will blink the LED_BUILTIN pin
+Blinker blinker(LED_BUILTIN, BLINK_INTERVAL);
+// The LED will start blinking as soon as the Blinker object is created
+// no other code is required in the setup() or loop() functions
 
 void setup() {
     // No additional setup needed
 }
 
 void loop() {
-    // Your code here
+    // Nothing to do here
 }
 ```
