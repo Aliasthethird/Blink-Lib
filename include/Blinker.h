@@ -1,5 +1,5 @@
-#ifndef Blinker_h
-#define Blinker_h
+#ifndef BLINKER_H
+#define BLINKER_H
 
 #include <Arduino.h>
 
